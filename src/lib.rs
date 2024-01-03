@@ -158,6 +158,8 @@ pub mod qspi;
 pub mod rcc;
 pub mod rng;
 pub mod rtc;
+#[cfg(feature = "sdmmc")]
+pub mod sdmmc;
 pub mod serial;
 pub mod signature;
 pub mod spi;
